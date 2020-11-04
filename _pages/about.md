@@ -5,20 +5,48 @@ permalink: /
 description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
-  align: right
+  align: left
   image: prof_pic.jpg
+  position: PhD Student
+  team: <a href="https://www.diverse-team.fr/" target="_blank">DiverSE</a>
+  affiliation: Univ. Rennes 1, IRISA, INRIA, JKU Linz	
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Building 12E, E222 Green</p>
+    <p>Campus of Beaulieu</p>
+    <p>35042 Rennes, France</p>
 
-news: true  # includes a list of news items
+news: false  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+# About me
+<div class="justify">
+	I am a PhD student doing an international PhD between the JKU Linz (Austria) and the University of Rennes 1 (France) with [Manuel Wimmer](https://www.se.jku.at/manuel-wimmer/) and [Benoit Combemale](http://people.irisa.fr/Benoit.Combemale/), and currently in the [DiverSE](http://diverse.irisa.fr/) team in Rennes.
+	I am interested in various aspects of Software Language Engineering, including metaprogramming approaches and generic V&V facilities.
+	My PhD is focused on the provision of dynamic analysis facilities for executable DSLs.
+	More specifically, I aim to extend the scope of executable DSLs supported by generic tools such as debuggers and test runners to include reactive DSLs, while also extending the generic capabilities of such tools, for instance through runtime monitoring and trace analysis for executable DSLs.
+	I lately began working on [NabLab](https://github.com/cea-hpc/NabLab), an environment for scientific computing developed in accordance with the SLE paradigm, to investigate how DSLs for scientific computing differ from languages used in software engineering and what this means in terms of reuse of generic V&V tools for such DSLs.
+</div>
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+<div id="affiliation-img">
+	<div class="center">
+		<a href="https://www.diverse-team.fr/" target="_blank"><img id="diverse" src="{{ 'diverse-small.svg' | prepend: '/assets/img/' | relative_url }}"></a>
+		<a href="https://www.irisa.fr/"        target="_blank"><img id="irisa"   src="{{ 'irisa.png'         | prepend: '/assets/img/' | relative_url }}"></a>
+		<a href="https://www.inria.fr/"        target="_blank"><img id="inria"   src="{{ 'inria.png'         | prepend: '/assets/img/' | relative_url }}"></a>
+	</div>
+	<div class="center">
+		<a href="https://www.univ-rennes1.fr/" target="_blank"><img id="ur1"     src="{{ 'ur1.png'           | prepend: '/assets/img/' | relative_url }}"></a>
+		<a href="https://www.jku.at/"          target="_blank"><img id="jku"     src="{{ 'jku.png'           | prepend: '/assets/img/' | relative_url }}"></a>
+		<a href="https://www.tuwien.at/"       target="_blank"><img id="tuw"     src="{{ 'tuwien.png'        | prepend: '/assets/img/' | relative_url }}"></a>
+	</div>
+</div>
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+## Topics of interest
+ - Software Language Engineering
+ - Domain-Specific Languages
+ - Model-Driven Engineering
+ - Executable Metamodeling
+ - Scientific Computing
+
+Feel free to contact me if you have some questions.
