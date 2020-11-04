@@ -59,6 +59,62 @@
 	}
 }
 
+@media (max-width: 409px) {
+	.social{
+		.contact-icon {
+			font-size: 3rem !important;
+		}
+	} 
+	.profile-small {
+		.picture {
+			max-width: inherit;
+			flex: 0 0 100%;
+			-ms-flex: 0 0 100%;
+			padding-left: 25%;
+			padding-right: 25%;
+			padding-top: 0;
+			margin-bottom: 15px;
+			
+			img {
+				border-radius: 50% !important;
+			}
+		}
+		.infos{
+			padding-left: 15px;
+			padding-right: 15px;
+		}
+	}
+	#affiliation-img {
+		text-align: center;
+		
+		.center {
+			display: inline-block;
+		}
+		#diverse {
+			height: 35px;
+		}
+		#ur1 {
+			height: 60px;
+		}
+		#esir {
+			height: 35px;
+		}
+		#irisa {
+			height: 35px;
+		}
+		#inria {
+			height: 40px;
+		}
+	}
+	
+	.header-bar {
+		h1 {
+			font-size: 4rem !important;
+		}
+	}
+	
+}
+
 // TODO: redefine content layout.
 
 
