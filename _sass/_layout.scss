@@ -29,6 +29,36 @@
   }
 }
 
+.justify {
+  text-align: justify;
+}
+
+#affiliation-img {
+	text-align: center;
+	
+	.center {
+		display: inline-block;
+	}
+	#diverse {
+		height: 40px;
+	}
+	#ur1 {
+		height: 65px;
+	}
+	#irisa {
+		height: 45px;
+	}
+	#inria {
+		height: 50px;
+	}
+	#jku {
+		height: 40px;
+	}
+	#tuw {
+		height: 40px;
+	}
+}
+
 // TODO: redefine content layout.
 
 
