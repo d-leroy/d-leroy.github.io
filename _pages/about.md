@@ -22,11 +22,11 @@ social: true  # includes social icons at the bottom of the page
 
 # About me
 <div class="justify">
-	I am a PhD student doing an international PhD between the JKU Linz (Austria) and the University of Rennes 1 (France) with [Manuel Wimmer](https://www.se.jku.at/manuel-wimmer/) and [Benoit Combemale](http://people.irisa.fr/Benoit.Combemale/), and currently in the [DiverSE](http://diverse.irisa.fr/) team in Rennes.
+	I am a PhD student doing an international PhD between the JKU Linz (Austria) and the University of Rennes 1 (France) with <a href="https://www.se.jku.at/manuel-wimmer/">Manuel Wimmer</a> and <a href="http://people.irisa.fr/Benoit.Combemale/">Benoit Combemale</a>, and currently in the <a href="http://diverse.irisa.fr/">DiverSE</a> team in Rennes.
 	I am interested in various aspects of Software Language Engineering, including metaprogramming approaches and generic V&V facilities.
 	My PhD is focused on the provision of dynamic analysis facilities for executable DSLs.
 	More specifically, I aim to extend the scope of executable DSLs supported by generic tools such as debuggers and test runners to include reactive DSLs, while also extending the generic capabilities of such tools, for instance through runtime monitoring and trace analysis for executable DSLs.
-	I lately began working on [NabLab](https://github.com/cea-hpc/NabLab), an environment for scientific computing developed in accordance with the SLE paradigm, to investigate how DSLs for scientific computing differ from languages used in software engineering and what this means in terms of reuse of generic V&V tools for such DSLs.
+	I lately began working on <a href="https://github.com/cea-hpc/NabLab">NabLab</a>, an environment for scientific computing developed in accordance with the SLE paradigm, to investigate how DSLs for scientific computing differ from languages used in software engineering and what this means in terms of reuse of generic V&V tools for such DSLs.
 </div>
 
 <div id="affiliation-img">
