@@ -34,9 +34,8 @@ social: true  # includes social icons at the bottom of the page
 		<a href="https://www.diverse-team.fr/" target="_blank"><img id="diverse" src="{{ 'diverse-small.svg' | prepend: '/assets/img/' | relative_url }}"></a>
 		<a href="https://www.irisa.fr/"        target="_blank"><img id="irisa"   src="{{ 'irisa.png'         | prepend: '/assets/img/' | relative_url }}"></a>
 		<a href="https://www.inria.fr/"        target="_blank"><img id="inria"   src="{{ 'inria.png'         | prepend: '/assets/img/' | relative_url }}"></a>
+		
 	</div>
-	
-	
 	<div class="center">
 		<a href="https://www.univ-rennes1.fr/" target="_blank"><img id="ur1"     src="{{ 'ur1.png'           | prepend: '/assets/img/' | relative_url }}"></a>
 		<a href="https://www.jku.at/"          target="_blank"><img id="jku"     src="{{ 'jku.png'           | prepend: '/assets/img/' | relative_url }}"></a>
