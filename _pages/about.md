@@ -5,13 +5,13 @@ permalink: /
 description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
-  align: left
+  align: right
   image: prof_pic.jpg
   position: PhD Student
   team: <a href="https://www.diverse-team.fr/" target="_blank">DiverSE</a>
   affiliation: Univ. Rennes 1, IRISA, INRIA, JKU Linz	
   address: >
-    <p>Building 12E, E222 Green</p>
+    <p>IRISA / INRIA Rennes</p>
     <p>Campus of Beaulieu</p>
     <p>35042 Rennes, France</p>
 
