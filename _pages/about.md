@@ -44,9 +44,9 @@ social: true  # includes social icons at the bottom of the page
 </div>
 
 ## Topics of interest
- - Software Language Engineering
- - Domain-Specific Languages
- - Model-Driven Engineering
+ - Software Language Engineering (SLE)
+ - Domain-Specific Languages (DSLs)
+ - Model-Driven Engineering (MDE)
  - Executable Metamodeling
  - Scientific Computing
 
