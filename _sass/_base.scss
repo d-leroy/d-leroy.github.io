@@ -283,19 +283,18 @@ footer.sticky-bottom {
 // CV
 
 
-.section-title {
+.section {
+        margin-bottom: 60px;
+    }
+    .section-title {
         text-transform: uppercase;
         font-size: 20px;
-        font-weight: 500;
-        color: $blue-color;
+        font-weight: bolder;
+        color: $blue-color-dark;
         position: relative;
         margin-top: 0;
         margin-bottom: 20px;
     }
-.section {
-        margin-bottom: 60px;
-    }
-
     .experiences-section, .educations-section {
         .item {
             margin-bottom: 30px;
@@ -307,11 +306,10 @@ footer.sticky-bottom {
         margin-bottom: 2px;
     }
     .job-title, .degree {
-        color: $blue-color;
         font-size: 16px;
         margin-top: 0;
         margin-bottom: 0;
-        font-weight: 500;
+        font-weight: bolder;
     }
     .time {
         position: absolute;
@@ -321,7 +319,6 @@ footer.sticky-bottom {
     }
     .company, .university {
         margin-bottom: 10px;
-        color: $blue-color;
     }
 
 // Publications
