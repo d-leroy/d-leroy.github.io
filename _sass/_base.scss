@@ -287,7 +287,7 @@ footer.sticky-bottom {
         text-transform: uppercase;
         font-size: 20px;
         font-weight: 500;
-        color: darken($theme-color, 15%);
+        color: $blue-color;
         position: relative;
         margin-top: 0;
         margin-bottom: 20px;
@@ -307,7 +307,7 @@ footer.sticky-bottom {
         margin-bottom: 2px;
     }
     .job-title, .degree {
-        color: $text-color;
+        color: $blue-color;
         font-size: 16px;
         margin-top: 0;
         margin-bottom: 0;
@@ -317,11 +317,11 @@ footer.sticky-bottom {
         position: absolute;
         right: 0;
         top: 0;
-        color: $text-grey;
+        color: $blue-color;
     }
     .company, .university {
         margin-bottom: 10px;
-        color: $text-grey;
+        color: $blue-color;
     }
 
 // Publications
